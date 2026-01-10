@@ -8,6 +8,8 @@ provider "google" {
   request_timeout             = "60s"
 }
 
+
+  # Uncomment and configure the backend when you're ready to use remote state
 # provider "google" {
 #   alias = "impersonation"
 #   scopes = [
@@ -42,4 +44,9 @@ terraform {
       version = "~> 4.0"
     }
   }
+    backend "gcs" {
+    bucket = "tetsu-65465154"
+    prefix = "terraform/state"
+    }
+
 }

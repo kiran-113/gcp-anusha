@@ -35,8 +35,8 @@ jobs:
         with:
           terraform_version: 1.13.1
 
-      # - name: Terraform Init
-      #   run: terraform init -reconfigure
+      - name: Terraform Init
+        run: terraform init -reconfigure
 
       - name: Terraform Init
         run: terraform destroy -auto-approve

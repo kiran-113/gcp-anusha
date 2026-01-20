@@ -1,3 +1,5 @@
+projects/923689576432/locations/global/workloadIdentityPools/github-wif-pool-new/providers/githubwif
+
 
 # GitHub OIDC Integration with GCP Workload Identity Federation
 

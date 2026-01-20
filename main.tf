@@ -1,15 +1,15 @@
 module "vpc" {
     source = "./module"
-    network_name = "testyubs"
+    network_name = "new-tesewd"
     create_s3 = true
-    names = ["hbscjhbsc-5651","tegstdgsd-55651"]
+    names = ["new-hbscjhbsc-545651"]
 
 }
 
 module "vpc2" {
     source = "./module"
-    network_name = "testyubs2"
+    network_name = "new-testyubwes2"
     create_s3 = false
-    names = ["bxshjcbs-261"]
+    names = ["new-bxshjcbs-278961"]
 
 }
